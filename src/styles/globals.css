@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  body {
+    @apply selection:bg-fuchsia-300 selection:text-fuchsia-900 bg-gray-50 text-slate-600 dark:bg-slate-600 dark:text-white;
+  }
+}
